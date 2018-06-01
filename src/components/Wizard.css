@@ -1,0 +1,88 @@
+.wizard_wrapper{
+  width: 50vh;
+  margin: 0 auto;
+  background-color: #e5f4ec;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: left;
+  height: 90vh;
+  position: relative;
+  
+
+}
+
+.wizard_header{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn_cancel{
+  background-color: #fec2c2;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.wizard_body input {
+  border: 1px solid green;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.wizard_body h4{
+  margin-bottom: 5px;
+  text-align: left;
+}
+.input_name{
+  display: block;
+}
+.input_address{
+  display: block;
+  width: 100%;
+}
+.input_wrapper{
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.btn_next{
+  background-color: #3b5249;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+  color:#fff;
+  padding: 10px;
+  bottom: 50px;
+  position: absolute;
+  right: 30px;
+  cursor: pointer;
+}
+
+.btn_prev{
+  background-color: #3b5249;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+  color:#fff;
+  padding: 10px;
+  bottom: 50px;
+  position: absolute;
+  left: 30px;
+  cursor: pointer;
+}
+
+.btn_complete{
+  background-color: #8AEA92;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+  color:#3B5249;
+  padding: 10px;
+  bottom: 50px;
+  position: absolute;
+  right: 30px;
+  cursor: pointer;
+}
+

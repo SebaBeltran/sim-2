@@ -1,0 +1,15 @@
+.header_wrapper{
+  height: 100px;
+  background-color: #519872;
+  color: #fff;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  padding-left: 300px;
+  /* position: fixed; */
+}
+
+.header_wrapper > h1{
+  margin: 0;
+  margin-left: 20px;
+}
